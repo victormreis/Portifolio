@@ -27,7 +27,7 @@
     font-size: 20pt;
 }
 
-.nav-item .fa-brands{
+.nav-item .fa-brands, .fa{
     color: white;
 }
 
