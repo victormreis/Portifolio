@@ -27,7 +27,6 @@
     font-size: 20pt;
 }
 
-
 .nav-item .fa-brands{
     color: white;
 }
@@ -93,6 +92,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.projetos p.descricao{
+    width: 30vw;
 }
 
 .btn-projetos{
