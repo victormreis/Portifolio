@@ -27,6 +27,11 @@
     font-size: 20pt;
 }
 
+.fs-14{
+    font-size: 14pt;
+    
+}
+
 .nav-item .fa-brands, .fa, footer .fa-brands{
     color: white;
 }
