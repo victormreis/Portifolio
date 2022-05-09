@@ -18,7 +18,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-fundo">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-fundo" id="top">
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,13 @@
           <a class="nav-link mr-3 text-white" href="#">Home</a>
         </li>
         <li class="nav-item mr-3">
-          <a class="nav-link text-white" href="#">Conhecimentos Tecnicos</a>
+          <a class="nav-link text-white" href="#habilidades-tecnicas">Habilidades Técnicas</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link text-white" href="#projetos">Projetos</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link text-white" href="#experiencias">Experiencias</a>
         </li>
         <li class="nav-item mr-3">
           <a class="nav-link" href="https://github.com/victormreis" target="_blank"><i class="fa-brands fa-github fs-20" aria-hidden="true"></i></a>         
@@ -59,7 +65,7 @@
         alt="">
       <h1 class="mt-2 display-4 mb-5">Victor Martins dos Reis</h1>
     </div>
-    <div class="container bg-fundo text-light">
+    <div class="container bg-fundo text-light pb-3 mb-4">
       <h2 class="text-center">Desenvolvedor Web Full stack</h2>
       <h3 class="display-4">Sobre Mim</h3>
       <p>Formado em Análise e desenvolvimento de sistemas pela Universidade
@@ -91,7 +97,7 @@
         fato de saber que meu código impacta a vida
         das pessoas é uma das melhores sensações! </p>
 
-      <h3 class="display-4 mb-4 mt-5">Habilidades Técnicas</h3>
+      <h3 class="display-4 mb-4 mt-5" id="habilidades-tecnicas">Habilidades Técnicas</h3>
 
       <ul class="d-flex flex-wrap">
         <li class="conhecimentos">
@@ -161,7 +167,7 @@
           </span>
         </li>
       </ul>
-      <h3 class="display-4 mt-2 mb-3">Projetos</h3>
+      <h3 class="display-4 mt-2 mb-3" id="projetos">Projetos</h3>
       
         <ul class="d-flex flex-wrap">
 
@@ -202,17 +208,16 @@
             <p class="title">StatsPreview</p>
             <p class="text-center descricao mr-2">Desafio do site Frontendmentor usando html e css</p>
             <div>
-              <button class="btn-projetos"><a href="https://victormreis.github.io/NLW/" target="_blank"><i class="fa-brands fa-github"></i> Projeto </a></button>
-              <button class="btn-projetos"><a href="https://github.com/victormreis/NLW" target="_blank"><i class="fa-brands fa-github"></i> Repositorio </a></button>             
+              <button class="btn-projetos"><a href="https://victormreis.github.io/StatsPreview/" target="_blank"><i class="fa-brands fa-github"></i> Projeto </a></button>
+              <button class="btn-projetos"><a href="https://github.com/victormreis/StatsPreview" target="_blank"><i class="fa-brands fa-github"></i> Repositorio </a></button>             
             </div>
 
           </li>
           <li class="projetos">
             <p class="title">API Tecnichal Share</p>
             <p class="text-center descricao mr-2">API desenvolvida durante o Hackathon da Fcamara</p>
-            <div>
-              <button class="btn-projetos"><a href="https://victormreis.github.io/NLW/" target="_blank"><i class="fa-brands fa-github"></i> Projeto </a></button>
-              <button class="btn-projetos"><a href="https://github.com/victormreis/NLW" target="_blank"><i class="fa-brands fa-github"></i> Repositorio </a></button>             
+            <div>              
+              <button class="btn-projetos"><a href="https://github.com/Hackathon-Fcamara/api-deploy" target="_blank"><i class="fa-brands fa-github"></i> Repositorio </a></button>             
             </div>
           
   
@@ -225,14 +230,25 @@
 
 
     </div>
+   
   </div>
-  </div>
+  <footer class="bg-fundo text-center py-2">
+    <a href="#top" class="arrow-up d-flex justify-content-end" id="arrowUp"><i class="fa-solid fa-arrow-up fs-20"></i></a>
+    <p class="text-light m-0">&copy; Todos os direitos reservados</p>
+    <div class="d-flex justify-content-center">
+      <a class="nav-link" href="https://github.com/victormreis" target="_blank"><i class="fa-brands fa-github fs-20" aria-hidden="true"></i></a>  
+      <a class="nav-link" href="https://github.com/victormreis" target="_blank"><i class="fa-brands fa-linkedin fs-20" aria-hidden="true"></i></a>  
+      <a class="nav-link" href="https://github.com/victormreis" target="_blank"><i class="fa-brands fa-instagram fs-20" aria-hidden="true"></i></a>  
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
     crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+    
 </body>
 
 </html>
