@@ -157,5 +157,7 @@
     color: white;
 }
 
-
+.justify{
+    text-justify: auto;
+}
 
