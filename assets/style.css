@@ -1,7 +1,7 @@
 
 
 .bg-fundo {
-    background-color: #36168d49;
+    background-color: #1b1b1b80;
 }
 
 .menu{
@@ -9,7 +9,7 @@
 }
 
 .main-container{
-  background-image:linear-gradient(to right, rgba(78, 78, 78, 0.432), rgba(12, 11, 11, 0.979)), url(imagens/bg.jpg);
+  background-image:linear-gradient(to right, rgba(78, 78, 78, 0.788), rgba(12, 11, 11, 0)), url(imagens/bg.jpg);
   background-position: center;  
   object-fit: cover;
   background-repeat: no-repeat;
@@ -28,7 +28,12 @@
 }
 
 .fs-14{
-    font-size: 14pt;
+    font-size: 16pt;
+    
+}
+.fs-10{
+    font-size: 10pt;
+    color: rgba(255, 255, 255, 0.616);
     
 }
 
@@ -73,16 +78,20 @@
     background-color: white;
     color: black;
     border-radius: 2px;
+    transition: filter .2s; 
     
 }
 
 .conhecimentos:hover{
-    background-color: transparent;
+    background-color: rgb(26, 177, 204);
     color: white;
+    transition: ease-in-out;
+    filter: brightness(1.5);
 }
 
 .conhecimentos-icones {
     color: black;
+    
 }
 
 .projetos{
@@ -120,6 +129,7 @@
     margin-top: 8px;
     background: white;
     border-radius: 8px;
+    filter: brightness();
     
 }
 
@@ -129,7 +139,8 @@
 }
 
 .btn-projetos:hover{
-    background: transparent;
+    background-color: rgb(26, 177, 204);
+    transition: ease-in-out;
 }
 
 .arrow-up{    
